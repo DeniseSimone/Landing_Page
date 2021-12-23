@@ -1,0 +1,23 @@
+div.profile {
+  width: 350px;
+  margin: 0 auto;
+  border-radius: 15px;
+  position: relative;
+
+}
+#card-bg-img {
+  height: 150px;
+  background: url("Images/prof_card_top_image.jpg") no-repeat center;
+  border-radius: 15px;
+}
+img.avatar {
+  width: 140px;
+  border-radius: 100%;
+  border: 6px solid white;
+  position: absolute;
+  top: 70px;
+  right: 105px;
+}
+div.profile-info {
+  margin-top: 60px;
+}

@@ -1,9 +1,19 @@
 @import "page_background.css";
 @import "hero_section.css";
 @import "button.css";
+@import "profile_card.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 body {
     padding-top: 56px;
+}
+h1, h4, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-family: 'Lora', serif;
 }
 .jumbotron {
     background: url("image.jpg") no-repeat center;
