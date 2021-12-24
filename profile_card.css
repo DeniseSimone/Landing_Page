@@ -19,5 +19,8 @@ img.avatar {
   right: 105px;
 }
 div.profile-info {
+  display: flex;
   margin-top: 60px;
+  color: black;
+  align-items: center;
 }

@@ -2,19 +2,17 @@
 @import "hero_section.css";
 @import "button.css";
 @import "profile_card.css";
+@import "navbar.css";
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&display=swap');
 
 body {
-    padding-top: 56px;
+
 }
 h1, h4, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Cinzel', serif;
+  color: white;
 }
 p {
-  font-family: 'Lora', serif;
-}
-.jumbotron {
-    background: url("image.jpg") no-repeat center;
+  font-family: 'Fauna One', serif;
 }
