@@ -1,7 +1,31 @@
 header.jumbotron {
   background: url("Images/background.jpg") no-repeat scroll;
   background-size: cover;
+  height: 400px;
+  padding: 0;
+}
+div.text-center {
+  width: 40%;
+  margin: 30px auto;
+  padding: 15px 10px;
+  box-sizing: border-box;
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+}
+div.text-center h1 {
+  color: antiquewhite;
+  font-size: 40px;
+  margin: 10px auto 15px;
+  text-shadow: 1px 0px 10px black;
+}
+div.text-center h4 {
+  color: antiquewhite;
+  font-size: 15px;
+  letter-spacing: 3px;
+  margin: 10px auto;
+  text-shadow: 1px 0px 10px black;
 }
 .btn.know-me {
-  margin-bottom: 20px;
+  margin-top: 25px;
 }

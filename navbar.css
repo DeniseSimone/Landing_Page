@@ -1,0 +1,15 @@
+div.container {
+  margin-top: 20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: antiquewhite;
+  font-family: 'Fauna One', serif;
+  border-radius: 45px;
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  margin-right: 20px;
+  padding: 7px 20px;
+}
+
+a.navbar-brand {
+}
