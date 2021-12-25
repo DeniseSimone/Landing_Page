@@ -4,15 +4,12 @@
 @import "profile_card.css";
 @import "navbar.css";
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Josefin+Sans:wght@300&display=swap');
 
-body {
-
-}
 h1, h4, h6 {
   font-family: 'Cinzel', serif;
   color: white;
 }
 p {
-  font-family: 'Fauna One', serif;
+  font-family: 'Josefin Sans', sans-serif;
 }

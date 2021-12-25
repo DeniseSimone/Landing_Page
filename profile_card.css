@@ -7,7 +7,8 @@ div.profile {
 }
 #card-bg-img {
   height: 150px;
-  background: url("Images/prof_card_top_image.jpg") no-repeat center;
+  background: url("Images/prof_card_top_image.png") no-repeat center;
+  background-size: cover;
   border-radius: 15px;
 }
 img.avatar {
@@ -20,7 +21,25 @@ img.avatar {
 }
 div.profile-info {
   display: flex;
+  flex-direction: column;
   margin-top: 60px;
-  color: black;
   align-items: center;
+}
+div.profile-info h6 {
+  color: black;
+}
+div.description {
+  margin-top: 20px;
+}
+div.profile ul > li > i {
+  color: black;
+  font-size: 40px;
+  margin: 10px;
+}
+div.profile ul > li > i.fa-facebook-square {
+  color: #38529A;
+}
+div.profile ul > li > i.fa-linkedin {
+  color: #0073B1
+;
 }
