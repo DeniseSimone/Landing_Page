@@ -1,12 +1,19 @@
-.know-me {
-  border-radius: 10px;
+a.know-me {
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  margin: 35px auto 15px;
+  border-radius: 8px;
   background-color: #023F52;
-  color: antiquewhite;
-  font-family: 'Fauna One', serif;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
+
 }
-}
-}
-.know-me:hover {
-  box-shadow: 0px 0px 8px #00a14b;
+a.know-me:hover {
+  text-decoration: none;
+  font-size: 18px;
+  width: 156px;
+
 }

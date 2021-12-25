@@ -4,28 +4,27 @@ header.jumbotron {
   height: 400px;
   padding: 0;
 }
-div.text-center {
+div.welcome.text-center {
   width: 40%;
+  height: 60%;
   margin: 30px auto;
   padding: 15px 10px;
   box-sizing: border-box;
   background-color: #ffffff10;
   backdrop-filter: blur(12px);
   border-radius: 15px;
+
 }
 div.text-center h1 {
-  color: antiquewhite;
-  font-size: 40px;
+  color: white;
+  font-size: 35px;
   margin: 10px auto 15px;
-  text-shadow: 1px 0px 10px black;
+  text-shadow: 2px 1px 10px black;
 }
 div.text-center h4 {
-  color: antiquewhite;
+  color: white;
   font-size: 15px;
   letter-spacing: 3px;
   margin: 10px auto;
-  text-shadow: 1px 0px 10px black;
-}
-.btn.know-me {
-  margin-top: 25px;
+  text-shadow: 2px 1px 10px black;
 }
