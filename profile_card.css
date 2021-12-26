@@ -1,15 +1,28 @@
-div.profile {
-  width: 350px;
+section#my-profile {
+  padding: 20px;
+  margin: 40px auto;
+}
+
+section#my-profile h2 {
+  margin-bottom: 20px;
+}
+section div.profile {
+ /* width: 350px; can be used in media queries */
+  width: 50%;
+  height: 480px;
   margin: 0 auto;
-  border-radius: 15px;
+  padding: 5px;
+  border-radius: 5px;
   position: relative;
+  border: 2px solid #023F52;
 
 }
 #card-bg-img {
+  width: 100%;
   height: 150px;
   background: url("Images/prof_card_top_image.png") no-repeat center;
   background-size: cover;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 img.avatar {
   width: 140px;
@@ -18,28 +31,33 @@ img.avatar {
   position: absolute;
   top: 70px;
   right: 105px;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px
 }
 div.profile-info {
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
+  margin-top: 40px;
   align-items: center;
 }
 div.profile-info h6 {
   color: black;
 }
 div.description {
-  margin-top: 20px;
+  padding: 10px 20px;
+  margin: 0 auto 10px;
 }
-div.profile ul > li > i {
+div.profile ul > li > a  > i {
   color: black;
   font-size: 40px;
-  margin: 10px;
+  cursor: pointer;
+  margin: 0 10px;
 }
-div.profile ul > li > i.fa-facebook-square {
+div.profile ul > li > a  > i.fa-facebook-square {
   color: #38529A;
 }
-div.profile ul > li > i.fa-linkedin {
-  color: #0073B1
-;
+div.profile ul > li > a  > i.fa-linkedin {
+  color: #0073B1;
+}
+div.profile ul > li > a  > i:hover {
+  font-size: 45px;
 }
