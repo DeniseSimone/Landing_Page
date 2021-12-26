@@ -1,0 +1,21 @@
+footer{
+  background-color: #023F52;
+  padding: 30px 10px;
+  color: white;
+  margin-top: 60px;
+}
+footer ul > li > a  > i {
+  color: black;
+  font-size: 40px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+footer ul > li > a  > i.fa-facebook-square {
+  color: #38529A;
+}
+footer ul > li > a  > i.fa-linkedin {
+  color: #0073B1;
+}
+footer ul > li > a  > i:hover {
+  font-size: 45px;
+}

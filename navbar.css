@@ -1,5 +1,6 @@
 .navbar-expand-lg {
-  background-color: #ffffff10;
+  /* background-color: #ffffff10; */
+  background-color: #023F52;
   backdrop-filter: blur(12px);
 }
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -7,8 +8,8 @@
   font-family: 'Josefin Sans', sans-serif;
   margin-right: 20px;
   padding: 3px 0 0px;
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid #023F52;
 }
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-  border-bottom: 3px solid #023F52;
+  border-bottom: 3px solid white;
 }

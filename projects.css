@@ -1,0 +1,41 @@
+section#projects {
+  background-color: #023F52;
+  margin: 70px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+section#projects h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+.card-footer {
+  background-color: #B1BFCC;
+}
+
+.card-img-top {
+  margin: 30px auto 10px;
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.btn.btn-secondary {
+  font-family:  'Josefin Sans', sans-serif;
+  background-color: #023F52;
+}
+.btn.btn-secondary:hover, .btn.btn-secondary:active {
+  text-decoration: none;
+  box-shadow: none;
+
+}
+a.see_project {
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #023F52;
+
+}

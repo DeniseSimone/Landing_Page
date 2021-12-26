@@ -1,29 +1,31 @@
 header.jumbotron {
   background: url("Images/background.jpg") no-repeat scroll;
   background-size: cover;
-  height: 400px;
+  height: 290px;
   padding: 0;
+  margin-bottom: 0;
+}
+div.content {
+  background-color: #023F52;
 }
 div.welcome.text-center {
   width: 40%;
-  height: 60%;
-  margin: 30px auto;
+  height: 110px;
+  margin: 40px auto 20px;
   padding: 15px 10px;
   box-sizing: border-box;
   background-color: #ffffff10;
   backdrop-filter: blur(12px);
-  border-radius: 15px;
+  border-radius: 5px;
 
 }
-div.text-center h1 {
+div.welcome.text-center h1 {
   color: white;
-  font-size: 35px;
   margin: 10px auto 15px;
   text-shadow: 2px 1px 10px black;
 }
-div.text-center h4 {
+div.welcome.text-center h5 {
   color: white;
-  font-size: 15px;
   letter-spacing: 3px;
   margin: 10px auto;
   text-shadow: 2px 1px 10px black;
