@@ -13,3 +13,11 @@
 .navbar-expand-lg .navbar-nav .nav-link:hover {
   border-bottom: 3px solid white;
 }
+ul.navbar-nav.ml-auto {
+  text-align: right;
+  width: 100px;
+}
+/* menu button - requires media queries */
+[type=button]:not(:disabled) {
+  background-color: white;
+}
